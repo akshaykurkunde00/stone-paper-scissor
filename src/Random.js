@@ -54,17 +54,10 @@ const Random = () => {
         <h1>{result}</h1>
       </div>
     </div>
-    <div className=''>
+   
+    
       
-      <div className='star-1'>
-        <div className='star-2'>
-          <div className='star-3'>    
-          <IoStar className='star' />
-          </div>
-        </div>
-      </div>
-      
-       </div>
+  
     </>
   );
 };
