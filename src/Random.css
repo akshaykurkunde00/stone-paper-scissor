@@ -1,0 +1,55 @@
+
+
+.game-container {
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 5px solid transparent;
+    padding: 20px;
+    border-radius: 40px;
+    
+    transition: border-color 0.3s;
+  }
+  
+  .win {
+    border-color: green;
+  }
+  
+  .lose {
+    border-color: red;
+  }
+  .tie {
+    border-color: blue;
+  }
+  
+  .button-container {
+    margin: 20px 0;
+  }
+  
+  .button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  .result-container {
+    margin: 20px 0;
+  }
+  
+  .result-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+ 
