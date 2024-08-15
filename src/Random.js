@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Random.css';
 import { IoStar } from "react-icons/io5";
+import { Button, TextField } from '@mui/material';
 
 const options = ['Rock', 'Paper', 'Scissors'];
 
@@ -43,15 +44,17 @@ const Random = () => {
       <h1>Rock, Paper, Scissors</h1>
       <div className='button-container'>
         {options.map((option) => (
-          <button key={option} onClick={() => handleUserChoice(option)}>
-            {option}
-          </button>
+          // <button >
+          //   {option}
+          // </button>
+          <Button key={option} onClick={() => handleUserChoice(option)}>{option}</Button>
         ))}
       </div>
       <div className='result-container'>
         <p>Your choice: {userChoice}</p>
         <p>Computer's choice: {computerChoice}</p>
         <h1>{result}</h1>
+        
       </div>
     </div>
    
